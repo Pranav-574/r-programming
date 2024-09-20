@@ -1,0 +1,16 @@
+?list
+employe_ID=c(1,2,3,4)
+employe_name=c("abc","ABC","xyz","XYZ")
+number_of_employee=4
+emplist=list(employe_ID,employe_name,number_of_employee)
+print(emplist)
+?data.frame
+uid=c(1,2,3,NA)
+uname=c("ab","bc","cd","de")
+strength=c(54,45)
+result=c(94)
+location=c("abc")
+uni_data=data.frame("ID"=uid,"NAME"=uname,strength,result,location)
+print(uni_data)
+str(uni_data)
+summary(uni_data)
